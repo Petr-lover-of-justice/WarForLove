@@ -1,0 +1,14 @@
+@import "./libs/normalize";
+@import "~bootstrap/scss/bootstrap";
+
+.wrapper {
+  background-image: url(..//img/backraund.png);
+  background-repeat: no-repeat;
+  width:1916px;
+ 
+  background-color: #1c1b21;
+}
+.container{
+margin: 0px 401px;
+padding: 0px;
+}
