@@ -33,7 +33,6 @@ export const Header = () => {
       </div>
       <div className={s.card}>
         <div className={s.card1}>
-          {/* <img src={cardHeader1} alt="cardHeader1" /> */}
           <p>
             Working on my upcoming full-lenth <br />
             album that`s releasing later this year.

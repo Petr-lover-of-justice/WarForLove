@@ -1,0 +1,66 @@
+.root {
+  margin-top: 179px;
+}
+
+h2 {
+  margin-top: 0px;
+}
+
+.title {
+  display: flex;
+  .logoTitle {
+    width: 62px;
+    height: 31px;
+    margin-top: 22px;
+    img {
+    }
+  }
+  h2 {
+    margin-left: 30px;
+  }
+}
+.us {
+  display: flex;
+  .text {
+    margin-top: 52px;
+    width: 540px;
+    height: 312px;
+    p {
+      opacity: 0.7;
+      font-family: Poppins;
+      font-size: 16px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: #fff;
+    }
+  }
+
+  .imgUs {
+    margin-left: 115px;
+   
+  }
+  .theses {
+    margin-top: 42px;
+    display: grid;
+    grid-template-columns: repeat(2, 285px);
+    grid-template-rows: repeat(2, 30px);
+    grid-column-gap: 0px;
+    grid-row-gap: 30px;
+    span {
+        color: #fff;
+        white-space: nowrap;
+        margin-left: 20px;
+      }
+    ul {
+        width: 30px;
+        height: 30px;
+        background: #7A66CC;
+        border-top-left-radius: 10px 10px;
+        border-bottom-right-radius: 10px 10px;
+    }
+  }
+}

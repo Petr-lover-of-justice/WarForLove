@@ -1,6 +1,8 @@
 import React from "react";
 import { AboutUs } from "../component/AboutUs";
+import { Commits } from "../component/Commits";
 import { Header } from "../component/Header";
+import { LastTracks } from "../component/LastTracks";
 
 export const Home = () => {
   return (
@@ -9,6 +11,8 @@ export const Home = () => {
         <div className="row header">
           <Header />
           <AboutUs />
+          <Commits />
+          <LastTracks />
         </div>
       </div>
     </div>

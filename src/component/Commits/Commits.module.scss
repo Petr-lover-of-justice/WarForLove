@@ -1,0 +1,47 @@
+.root {
+  margin-top: 151px;
+  width: 1110px;
+  height: 313;
+  position: relative;
+}
+.commits {
+  padding-left: 80px;
+  margin-top: 85px;
+  border: 1px solid #fff;
+  height: 313px;
+  border-top-left-radius: 30px 30px;
+  border-bottom-right-radius: 30px 30px; 
+  .text {
+    font-family: Poppins;
+    font-size: 18px;
+    width: 1110px;
+    padding-top: 50px;
+  }
+  .border {
+    border-top: 1px solid #fff;
+    width: 520px;
+    margin-top: 24px;
+    opacity: 0.6;
+  }
+  .imgMtv {
+    position: absolute;
+    top: 0px;
+    left: 664px;
+  }
+  .popUl {
+    margin-top: 25px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: bold;
+    color: #7a66cc;
+    padding-bottom: 50px;
+  }
+  .quotationMarks{
+    position: absolute;
+    top: 135px;
+    left: 80px;
+  }
+}
+p {
+  color: #fff;
+}
