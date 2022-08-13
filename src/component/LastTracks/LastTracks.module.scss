@@ -1,3 +1,88 @@
-.root{
-    margin-top: 180px;
+.root {
+  display: flex;
+  margin-top: 217px;
+}
+.wrapper {
+  .lastTrackImg {
+    position: relative;
+    box-shadow: 
+    0px 0px 0px 20px rgba(#7a66cc, 0.6),
+    0px 0px 0px 40px rgba(#7a66cc, 0.3);
+    border-radius: 50%;
+    padding: 0px;
+    margin-top: 40px;
+    z-index: 1;
+  }
+}
+.track {
+  margin-left: 100px;
+
+  .title {
+    display: flex;
+    .logoBits {
+      width: 62px;
+      height: 31px;
+    }
+    h2 {
+      margin-top: -20px;
+      margin-left: 30px;
+    }
+  }
+  .player {
+    margin-top: 60px;
+    display: flex;
+    img {
+      width: 22px;
+      height: 25px;
+    }
+    input {
+      margin-top: -15px;
+      margin-left: 45px;
+      width: 317px;
+    }
+    p {
+      margin-left: 47px;
+      color: #fff;
+      font-family: Poppins;
+      font-size: 18px;
+      font-weight: 500;
+    }
+  }
+  li {
+    margin-top: 35px;
+    ul {
+      span {
+        margin-right: 20px;
+        opacity: 0.5;
+        font-family: Poppins;
+        font-size: 14px;
+        color: #fff;
+      }
+      padding: 0px;
+      color: #fff;
+      margin-bottom: 20px;
+      font-family: Poppins;
+      font-size: 18px;
+    }
+  }
+  .FollowMe {
+    display: flex;
+    margin-top: 50px;
+    h4 {
+      color: #fff;
+      font-family: Poppins;
+      font-size: 24px;
+      font-weight: 600;
+    }
+    .spotify {
+      margin-left: 40px;
+      width: 90px;
+      height: 30px;
+    }
+    .iTines {
+      margin-left: 30px;
+      width: 87px;
+      height: 30px;
+    }
+  }
 }

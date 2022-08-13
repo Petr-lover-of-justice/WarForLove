@@ -4,9 +4,6 @@ import logo from "..//../img/logo.png";
 import play from "..//../img/play.png";
 import s from "./Header.module.scss";
 
-import cardHeader1 from "..//../img/cardHeder1.png";
-import cardHeader2 from "..//../img/cardHeder2.png";
-import cardHeader3 from "..//../img/cardHeder3.png";
 export const Header = () => {
   return (
     <div className={s.root}>
