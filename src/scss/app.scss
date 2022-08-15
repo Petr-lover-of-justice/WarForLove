@@ -1,6 +1,6 @@
 @import "./libs/normalize";
 @import "~bootstrap/scss/bootstrap";
-
+@import "./components/Bootstap.scss";
 .wrapper {
   background-image: url(..//img/backraund.png);
   background-repeat: no-repeat;
@@ -24,3 +24,5 @@ h2 {
   text-align: left;
   color: #fff;
 }
+
+

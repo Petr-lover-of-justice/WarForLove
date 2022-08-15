@@ -16,7 +16,7 @@ export const LastTracks = () => {
   ];
   const song = array.map((item, i) => {
     return (
-      <ul>
+      <ul key={i}>
         <span>0{i + 1}</span>
         {item}
       </ul>
